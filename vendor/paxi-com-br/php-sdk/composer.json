@@ -1,0 +1,24 @@
+{
+    "name": "paxi-com-br/php-sdk",
+    "description": "Desenvolva sua solução PHP com a SDK oficial da PAXI.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/paxi-com-br/php-sdk",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PAXI\\SDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PAXI",
+            "homepage": "https://paxi.com.br/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}

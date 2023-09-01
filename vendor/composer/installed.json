@@ -1,0 +1,52 @@
+{
+    "packages": [
+        {
+            "name": "paxi-com-br/php-sdk",
+            "version": "1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paxi-com-br/php-sdk.git",
+                "reference": "0f73fcf995b70ee4e83e241b8e479b67ba73f570"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paxi-com-br/php-sdk/zipball/0f73fcf995b70ee4e83e241b8e479b67ba73f570",
+                "reference": "0f73fcf995b70ee4e83e241b8e479b67ba73f570",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "time": "2023-09-01T11:02:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PAXI\\SDK\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PAXI",
+                    "homepage": "https://paxi.com.br/"
+                }
+            ],
+            "description": "Desenvolva sua solução PHP com a SDK oficial da PAXI.",
+            "homepage": "https://github.com/paxi-com-br/php-sdk",
+            "support": {
+                "issues": "https://github.com/paxi-com-br/php-sdk/issues",
+                "source": "https://github.com/paxi-com-br/php-sdk/tree/1.1.1"
+            },
+            "install-path": "../paxi-com-br/php-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
